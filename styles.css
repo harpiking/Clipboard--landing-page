@@ -1,0 +1,169 @@
+body {
+  padding: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Bai Jamjuree', sans-serif;
+  background-image: url('images/bg-header-desktop.png');
+  background-repeat: repeat-x;
+  background-size: contain;
+  font-size: 20px;
+  color: hsl(210, 10%, 33%);
+  line-height: 1.5;
+}
+
+section, .clipboard {
+  margin: 100px 0;
+}
+
+li {
+  list-style: none;
+}
+
+p {
+  color: hsl(201, 11%, 66%);
+}
+
+span {
+  display: inline-block;
+  text-align: left;
+  padding: 20px ;
+}
+
+a {
+  padding: 10px;
+}
+*:hover{
+  cursor: pointer;
+}
+.container {
+  width: 70%;
+  position: relative;
+  left: 17%;
+}
+.content{
+  padding: 2px 130px;
+}
+.btn {
+  padding: 19px 50px;
+  border-radius: 30px;
+  border: solid 1px hsl(201, 11%, 66%);
+  margin: 20px 8px;
+  color: white;
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+  box-shadow: 2px 4px 0.5px  hsl(210, 10%, 33%);
+  text-shadow: 0.5px 0 0 white;
+}
+.btn:hover{
+  opacity: 0.9;
+}
+.btn-first {
+  background-color: hsl(171, 66%, 44%);
+}
+
+.btn-second {
+  background-color: hsl(233, 100%, 69%);
+}
+
+.header-content {
+  margin: 50px 10px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+.pc, .tablet {
+  width: 100%;
+}
+
+.inner-header-content {
+  text-align: left;
+}
+
+.supercharge {
+  margin: 50px 20px;
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+}
+
+.img {
+  margin: 23px;
+}
+
+.footer-logo {
+  width: 45px;
+  position: absolute;
+  left: 20%;
+  margin-top: 50px;
+}
+
+.socials {
+  position: absolute;
+  right: 5%;
+  padding-top: 20px;
+}
+
+.footer {
+  padding: 10px;
+  background-color: hsl(201, 12%, 95%);
+}
+
+.footer-p:hover {
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-pp:hover {
+  background-color: hsl(171, 66%, 44%);
+}
+
+@media(max-width: 700px) {
+  span {
+    padding: 0;
+  }
+
+  img {
+    padding-bottom: 25px;
+  }
+
+  .header-content, .supercharge {
+    text-align: center;
+    display: block;
+  }
+
+  .btn {
+    width: 80%;
+    margin-left: 10%;
+    text-align: center;
+    display: block;
+  }
+
+  .image-icon {
+    width: 100%;
+    display: block;
+    margin-left: 10%;
+  }
+.content{
+  padding: 25px;
+}
+  .img {
+    display: block;
+    position: relative;
+    left: 20%;
+  }
+.inner-header-content{
+  text-align: center;
+}
+ ul{
+    font-size: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+.footer-p{
+  text-align: center;
+  padding: 7px;
+}
+  .footer.logo, .socials, .footer-logo {
+    position: static;
+  }
+}
